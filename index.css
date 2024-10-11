@@ -1,0 +1,493 @@
+* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Home Section Styling */
+.home-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 40px;
+    margin: 20px auto;
+    max-width: 900px;
+    color: #ffffff;
+    text-align: center;
+    background-image: linear-gradient(135deg, rgba(72, 219, 251, 0.4), rgba(180, 114, 255, 0.4));
+}
+
+/* Aesthetic Font Styling */
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #fdfdfd;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #e0e0e0;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0;
+}
+
+/* Animation for subtle text appearance */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+h1, p {
+    animation: fadeIn 2s ease-in-out;
+    color:black;
+}
+
+/* Overall Body Background */
+body {
+    background-color: #121212;
+    background-image: linear-gradient(135deg, #f6f0f4, #f5f0f3);
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #ffa500;
+}
+
+section {
+    padding: 100px 20px;
+    min-height: 100vh;
+}
+
+#home {
+    background-color: #f4f4f4;
+}
+
+#announcements, #winners, #scoreboard, #gallery, #bearers, #contact {
+    background-color: #f9f9f9;
+}
+/* General Aesthetic Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #2c3e50;
+}
+
+
+/* Event Announcements Section */
+#announcements {
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+     margin: 250px;
+     margin-right:250px;
+     margin-top:250px;
+     margin-bottom:250px;
+   
+    background-image: linear-gradient(135deg, rgba(72, 219, 251, 0.4), rgba(152, 94, 218, 0.4));
+    /* Aesthetic gradient */
+    color: #ffffff;
+    text-align: center;
+}
+
+/* Animated Title */
+.animated-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #070706; /* Bright color for title */
+    margin-bottom: 40px;
+    animation: floatJump 3s ease-in-out infinite;
+}
+
+/* Event Box Styling */
+.event-box {
+    background: rgba(255, 255, 255, 0.1); /* Glassmorphism effect */
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 90%; /* Responsive width */
+    max-width: 500px; /* Max width for larger screens */
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Event Box Hover Effect */
+.event-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+}
+
+/* Event Titles */
+.event-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #100f0e; /* Coral color for event titles */
+}
+
+/* Event Description */
+.event-desc {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff; /* White color for descriptions */
+    margin-bottom: 15px;
+}
+
+/* Winner Title */
+.winner-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #1f1e1d; /* Bright color for winners */
+}
+
+/* Keyframe Animation for Title */
+@keyframes floatJump {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+
+
+
+
+/* Aesthetic Scoreboard */
+.scoreboard-table {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    font-size: 18px;
+}
+
+.scoreboard-table th, .scoreboard-table td {
+    padding: 15px 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.scoreboard-table thead {
+    background-color: #1e88e5;
+    color: white;
+    font-weight: bold;
+}
+
+.scoreboard-table tr:nth-child(even) {
+    background-color: #f1f1f1;
+}
+
+.scoreboard-table tr:hover {
+    background-color: #ff7043;
+    color: white;
+}
+
+.scoreboard-table td {
+    transition: all 0.3s ease;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #1a1a1a;
+    color: white;
+    padding: 10px 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+/* General Styling */
+section {
+    padding: 100px 20px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Event Announcement Section */
+.event {
+    margin-bottom: 20px;
+}
+
+.event-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    position: relative;
+    animation: float 4s ease-in-out infinite;
+}
+
+.event-desc {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Floating Animation */
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+/* Jump Animation */
+.animated-title {
+    font-size: 40px;
+    animation: jump 2s ease-in-out infinite;
+}
+
+@keyframes jump {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+}
+
+/* Scoreboard Section */
+.scoreboard-section {
+    padding: 50px 0;
+    background-image: linear-gradient(135deg, rgba(72, 219, 251, 0.4), rgba(180, 114, 255, 0.4));
+    
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 15px;
+    color: #ffffff;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 1000px;
+}
+
+/* Animated Title for Scoreboard */
+.animated-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #1f1a1a;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+    margin-bottom: 40px;
+    position: relative;
+    animation: floatJump 3s ease-in-out infinite;
+}
+
+/* Scoreboard Box */
+.scoreboard-box {
+    
+    box-shadow: 0 4px 30px rgba(163, 160, 160, 0.1);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.scoreboard-box:hover {
+    transform: translateY(-5px);
+    
+}
+
+/* Scoreboard Event Title */
+.scoreboard-event {
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #1e1d19; /* Gold color for event names */
+    margin-bottom: 10px;
+}
+
+/* Winner Styling */
+.winner {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #131513; /* Light green color for winners */
+}
+
+/* Global Background */
+body {
+    background-color: #1c1c1c;
+    background-image: linear-gradient(135deg, #ecf0f3, #fcf5f6);
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Contact Us / Feedback Form Section */
+.contact-section {
+    background-image: linear-gradient(135deg, rgba(72, 219, 251, 0.4), rgba(152, 94, 218, 0.4));
+    padding: 60px;
+    margin: 50px auto;
+    max-width: 800px;
+  
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 20px;
+    color: #ffffff;
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.contact-section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Feedback Form Title */
+.contact-section h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #201f1f; /* Coral color for title */
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+    animation: floatJump 3s ease-in-out infinite;
+}
+
+/* Form Styling */
+.feedback-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-group {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #1f1d1d;
+    margin-bottom: 8px;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 12px;
+    border: none;
+    background: rgba(255, 255, 255, 0.3);
+    color: #1a1919;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+    outline: none;
+}
+
+.form-group input::placeholder, .form-group textarea::placeholder {
+    color: rgba(11, 11, 11, 0.7);
+}
+
+.form-group input:focus, .form-group textarea:focus {
+    background: rgba(14, 14, 14, 0.5);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Send Button */
+.send-btn {
+    padding: 15px 30px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #d3d0d0;
+    background-color: #dad7d7;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.send-btn:hover {
+    background-color: #c7c3c0; /* Darker coral */
+    transform: scale(1.05);
+}
+
+@keyframes floatJump {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
